@@ -1,0 +1,16 @@
+let numerador = parseInt (prompt("Digite um numerador"));
+let denominador = parseInt (prompt("Digite um denominador"));
+let quociente;
+
+if (denominador == 0)
+{
+    alert ("Não é possível dividir por zero.");
+
+}
+else
+{
+ quociciente = numerador / denominador;
+
+ alert (numerador + " " + "dividido por" + denominador + "é" + quociente);
+ 
+}
