@@ -9,7 +9,7 @@ if (denominador == 0)
 }
 else
 {
- quociciente = numerador / denominador;
+ quociente = numerador / denominador;
 
  alert (numerador + " " + "dividido por" + denominador + "é" + quociente);
  
